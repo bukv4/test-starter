@@ -1,13 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
 body {
+    margin: 0;
     background: rgb(23, 238, 19);
      }   
 
 .z1 {
     color: rgb(252, 252, 252);
     font-size: 52px;
-}
+    }
 
-.z2 {
+.z2   {
     color: rgb(255, 0, 0);
     font-size: 25px;
+      }
+
+.content1   {
+    max-width: var(--wrapper-width, 1170px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+            }
+
+.menu1  {
+    list-style: none; 
+    margin: 0 ;
+        }
+
+a   {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+    color: aliceblue;
+    }
+
+.mainmenu   {
+    padding: 50px 100px 50px 100px;
+    background: #000000;    
+}   
+
+.mainmenu a:hover {
+    background: #b19891;
+}
+
+.mainmenu li {
+    text-align: center;
+    display: inline;
 }
